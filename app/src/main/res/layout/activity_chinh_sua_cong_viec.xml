@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHINH SUA CONG VIEC"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnChinhSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chinh sua" />
+
+    <EditText
+        android:id="@+id/edtTenCongViecSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten cong viec"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edtMoTaCongViecSua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap mo ta cong viec"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/btnLuuCongViec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luu" />
+
+</LinearLayout>

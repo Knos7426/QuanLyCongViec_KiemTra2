@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvThongTinSinhVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ho ten: Tran Cong Son\nMa sinh vien: 2415053122133\nLop HP: 126TLTTD01"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/edtTenCongViec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten cong viec"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/edtMoTaCongViec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap mo ta cong viec"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:minLines="3" />
+
+        <Button
+            android:id="@+id/btnTaoCongViec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tao cong viec" />
+
+        <Button
+            android:id="@+id/btnXemDanhSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem danh sach cong viec" />
+
+    </LinearLayout>
+</ScrollView>
